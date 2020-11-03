@@ -1,0 +1,11 @@
+# Assign a variable that holds a string type, a variable that holds an integer type and a variable that holds a float type.
+# Print the results on separate lines.
+
+word = input('Input a word: ')
+number = int(input('Input a whole number: '))
+decimal = float(input('Input a decimal: '))
+ 
+print('')
+print(word)
+print(number)
+print(decimal)
