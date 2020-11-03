@@ -1,0 +1,5 @@
+# Given a variable x, prints its square.
+
+x = float(input('Insert a number: ')
+
+print(x ** 2)
