@@ -1,0 +1,10 @@
+# Given x and y.
+# Write a program that will print 'x / y = result' with the result in mixed number form e.g. 10 / 3 = 3 ⅓.
+
+x = int(input('Insert a numerator: ')
+y = int(input('Insert a denominator: ')
+
+a = x // y
+b = x % y
+
+print('The mixed number is ' + str(a) + ' and ' + str(b) + ' / ' + str(y))
