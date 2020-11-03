@@ -1,0 +1,10 @@
+# Given 2 variables that are numbers, x and y.
+# Print 'x is bigger' if x > y, otherwise print 'y is bigger'.
+
+x = int(input('Insert a value for x: '))
+y = int(input('Insert a value for y: '))
+ 
+if x > y:
+ 		print('x is bigger')
+else:
+ 		print('y is bigger')
