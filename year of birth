@@ -1,0 +1,7 @@
+# Given 2 variables: name and year_of_birth.
+# Write a program that will print 'Hello name, you were are you *insert age* years old?' with age being calculated from year_of_birth
+
+name = input('What is your name? ')
+year_of_birth = int(input('What year were you born? ')
+
+print('Hello' + name + ', are you ' + str(2020 - year_of_birth) + ' years old?')
